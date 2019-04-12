@@ -5,3 +5,17 @@ body {
 h1 {
   text-align: center;
 }
+
+.seasons {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.parents {
+  display: flex;
+}
+
+.children {
+  display: flex;
+}
