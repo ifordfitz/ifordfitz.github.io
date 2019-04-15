@@ -1,5 +1,6 @@
 body {
   font-family: 'Cinzel', serif;
+  background-color: #D4CDB1;
 }
 
 h1 {
@@ -16,6 +17,24 @@ h1 {
   display: flex;
 }
 
-.children {
+.oldChildren {
   display: flex;
+  background-color: #7B906F;
+  justify-content: space-between;
 }
+
+.youngChildren {
+  display: flex;
+  background-color: #7B906F;
+}
+footer {
+  background-color: #7B906F;
+}
+
+.sigil {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* #D4CDB1 for top half of page*/
+/* #7B906F for bottom half of page*/
