@@ -5,6 +5,7 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 48px
 }
 
 #words {
@@ -19,25 +20,31 @@ h1 {
   flex-wrap: wrap;
 }
 
+input[type="buttonSeason"] {
+  font-family: 'Cinzel', serif;
+}
+
 .parents {
   display: flex;
-  /* border-radius: 15px; */
   justify-content: space-around;
   position: relative;
   text-align: center;
   color: silver;
 }
 
+.parents img {
+  border-radius: 10px;
+}
+
 .names {
-  position: absolute;
-  bottom: 2px;
+  position: relative;
+  bottom: 5px;
   text-align: center;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(0, -50px);
 }
 
 .children {
   display: flex;
-  /* border-radius: 15px; */
   justify-content: space-evenly;
   align-content: space-between;
   flex-wrap: wrap;
@@ -46,6 +53,9 @@ h1 {
   color: silver;
 }
 
+.children img {
+  border-radius: 15px;
+}
 
 footer {
   background-color: #7B906F;
