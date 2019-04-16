@@ -45,6 +45,14 @@ input[type="submit"] {
   color: silver;
 }
 
+.deadClass {
+  position: relative;
+  bottom: 5px;
+  text-align: center;
+  transform: translate(0, -100px);
+  color: red;
+}
+
 .eddard {
   padding-right: 4em;
 }
