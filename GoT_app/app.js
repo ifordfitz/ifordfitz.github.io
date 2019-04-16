@@ -6,4 +6,8 @@ $(()=>{
             $('#words').html(data.words)
         },
     );
+
+    $('.seasonOne').on('click', () => {
+      console.log('seasonOne clicked');
+    })
 })

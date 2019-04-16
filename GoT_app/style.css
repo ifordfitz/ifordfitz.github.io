@@ -8,9 +8,11 @@ header {
   background-color: #7B906F;
   padding-bottom: 1em;
 }
-h1 {
+
+#hStark {
   text-align: center;
   font-size: 60px;
+  font-weight: bold;
 }
 
 #words {
