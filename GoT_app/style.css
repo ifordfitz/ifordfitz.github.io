@@ -95,5 +95,60 @@ footer {
   text-align: center;
 }
 
-/* #D4CDB1 for top half of page*/
-/* #7B906F for bottom half of page*/
+.overlayEddard {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 312px;
+  right: 0;
+  height: 80%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.eddard:hover .overlayEddard {
+  opacity: 1;
+}
+
+.overlayCatelyn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 575px;
+  right: 0;
+  height: 80%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.catelyn:hover .overlayCatelyn {
+  opacity: 1;
+}
+
+/* .overlayRobb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 575px;
+  right: 0;
+  height: 80%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.robb:hover .overlayRobb {
+  opacity: 1;
+} */
+
+.text {
+  color: #7B906F;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
