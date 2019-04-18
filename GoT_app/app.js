@@ -19,14 +19,14 @@ $(()=>{
       event.preventDefault();
       $('#ned').append($('<h3>valar morghulis</h3>'));
       $('#ned').addClass('deadClass').removeClass('names');
-      $('.overlayEddard').text("Beheaded in King's Landing on the orders of King Joffrey");
-      $('.overlayCatelyn').text("Kidnaps Tyrion at the Crossroads Inn, takes him to the Eyrie, meets Robb's army in the Riverlands");
-      $('.overlayRobb').text("Marches the Stark army south and wins a battle against the Lannister army");
-      $('.overlayJon').text("Joins the nights watch");
-      $('.overlaySansa').text("Betrothed to Joffrey, is generally uppity, regrets wanting to go to King's Landing");
-      $('.overlayArya').text("Bit of a tomboy, learns to sword fight, escapes King's Landing with Hot Pie and co");
-      $('.overlayBran').text("Pushed out a window and is paralyzed, attacked by wildlings, starts having Three-Eyed Raven dreams");
-      $('.overlayRickon').text("Doesn't do much this season but does name his direwolf 'Shaggydog'");
+      $('#nedText').text("Beheaded in King's Landing on the orders of King Joffrey");
+      $('#catText').text("Kidnaps Tyrion at the Crossroads Inn, takes him to the Eyrie, meets Robb's army in the Riverlands");
+      $('#robbText').text("Marches the Stark army south and wins a battle against the Lannister army");
+      $('#jonText').text("Joins the nights watch");
+      $('#sansaText').text("Betrothed to Joffrey, is generally uppity, regrets wanting to go to King's Landing");
+      $('#aryaText').text("Bit of a tomboy, learns to sword fight, escapes King's Landing with Hot Pie and co");
+      $('#branText').text("Pushed out a window and is paralyzed, starts having Three-Eyed Raven dreams");
+      $('#rickonText').text("Doesn't do much this season but does name his direwolf 'Shaggydog'");
     })
 
 
