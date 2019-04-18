@@ -101,16 +101,17 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 60%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -515px);
+  transform: translate(0, -450px);
 }
 
 .eddard:hover .overlayEddard {
   opacity: 1;
 }
+
 
 .overlayCatelyn {
   position: relative;
@@ -118,11 +119,11 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 60%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -450px);
+  transform: translate(0, -425px);
 }
 
 .catelyn:hover .overlayCatelyn {
@@ -139,7 +140,7 @@ footer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -350px);
+  transform: translate(0, -400px);
 }
 
 .robb:hover .overlayRobb {
@@ -156,7 +157,7 @@ footer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -350px);
+  transform: translate(0, -375px);
 }
 
 .jon:hover .overlayJon {
@@ -190,7 +191,7 @@ footer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -350px);
+  transform: translate(0, -330px);
 }
 
 .arya:hover .overlayArya {
@@ -224,7 +225,7 @@ footer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  transform: translate(0, -350px);
+  transform: translate(0, -418px);
 }
 
 .rickon:hover .overlayRickon {
@@ -245,4 +246,5 @@ footer {
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: bold;
+  width: 100%;
 }
