@@ -17,9 +17,6 @@ $(()=>{
     ///////////////////
     $('.seasonOne').on('click', (event) => {
       event.preventDefault();
-      // if ($('#ned').children().length == 2) {
-      //   return;
-      // }
       $('#cTully').addClass('names').removeClass('deadClass');
       $('#robby').addClass('names').removeClass('deadClass');
       $('#ricky').addClass('names').removeClass('deadClass');
@@ -63,12 +60,6 @@ $(()=>{
     ///////////////////
     $('.seasonThree').on('click', (event) => {
       event.preventDefault();
-      // if ($('#cTully').children().length == 2) {
-      //   return;
-      // }
-      // if ($('#robby').children().length == 2) {
-      //   return;
-      // }
       $('#ricky').addClass('names').removeClass('deadClass');
       $('.valar').remove();
       $('#ned').append($('<h3 class="valar">valar morghulis</h3>'));
@@ -118,9 +109,6 @@ $(()=>{
     ///////////////////
     $('.seasonFive').on('click', (event) => {
       event.preventDefault();
-      // if ($('#jSnow').children().length == 2) {
-      //   return;
-      // }
       $('#ricky').addClass('names').removeClass('deadClass');
       $('.valar').remove();
       $('#ned').append($('<h3 class="valar">valar morghulis</h3>'));
@@ -147,9 +135,6 @@ $(()=>{
     ///////////////////
     $('.seasonSix').on('click', (event) => {
       event.preventDefault();
-      // if ($('#ricky').children().length == 2) {
-      //   return;
-      // }
       $('.valar').remove();
       $('#ned').append($('<h3 class="valar">valar morghulis</h3>'));
       $('#ned').addClass('deadClass').removeClass('names');
@@ -221,36 +206,4 @@ $(()=>{
       $('#branText').text("Hanging out in Winterfell just seeing stuff");
       $('#rickonText').text("Still not running zigg-zagg");
     })
-
-    // ===================
-  // GRABBING ELEMENTS
-  // ===================
-  const $openBtn = $('#openModal');
-  const $modal = $('#modal');
-  const $closeBtn = $('#close');
-
-  // ===================
-  // EVENT HANDLER
-  // ===================
-  // opens the modal
-  const openModal = () => {
-    $modal.css('display', 'block');
-  }
-  // closes the modal
-  const closeModal = () => {
-    $modal.css('display', 'none');
-  }
-
-  // ===================
-  // EVENT LISTENERS
-  // ===================
-  // about the game button
-  $openBtn.on('click', openModal);
-  // close button
-  $closeBtn.on('click', closeModal);
-
-  // ===================
-  // HAVE MODAL POP UP
-  // ===================
-  setTimeout(openModal, 2000)
 });
